@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="QueenBlue">#406E8E</color>
+    <color name="RainbowIndigo">#23395B</color>
+    <color name="RainbowIndigo_2">#23395B</color>
+    <color name="Xanthous">#E3B23C</color>
+    <color name="teal_700">#262A10</color>
+    <color name="White">#FFFFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

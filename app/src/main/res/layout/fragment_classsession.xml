@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEBD7"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#161925"
+            android:text="@string/class_session_title_label" />
+
+        <EditText
+            android:id="@+id/class_session_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/class_session_title_hint" />
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#161925"
+            android:text="@string/class_session_details_label" />
+
+        <EditText
+            android:id="@+id/class_session_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:hint="Enter session description here"
+            android:background="@drawable/edittext_border"/>
+
+
+        <Button
+            android:id="@+id/class_session_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#406E8E"
+            android:text="Edit date"/>
+
+        <Button
+            android:id="@+id/class_session_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#406E8E"
+            android:text="Edit time" />
+
+        <CheckBox
+            android:id="@+id/session_completed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/class_session_completed_label" />
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#161925"
+            android:text="@string/class_session_student_label" />
+
+
+        <Button
+            android:id="@+id/class_session_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#406E8E"
+            android:text="@string/student_text" />
+
+        <Button
+            android:id="@+id/class_session_report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#406E8E"
+            android:text="@string/class_session_report_text" />
+
+        <Button
+            android:id="@+id/call_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#406E8E"
+            android:text="@string/student_call" />
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="@string/back_button_text" />
+
+    </LinearLayout>
+</ScrollView>

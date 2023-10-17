@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Class" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/QueenBlue</item>
+        <item name="colorPrimaryVariant">@color/RainbowIndigo_2</item>
+        <item name="colorOnPrimary">@color/White</item>
+        <item name="colorSecondary">@color/Xanthous</item>
+        <item name="colorSecondaryVariant">@color/Xanthous</item>
+        <item name="colorOnSecondary">@color/White</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

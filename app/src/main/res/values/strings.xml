@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Class Log</string>
+    <string name="class_session_title_hint">Enter the topic that was taught!</string>
+    <string name="class_session_title_label">Topic</string>
+    <string name="class_session_details_label">Details</string>
+    <string name="class_session_completed_label">Class Completed</string>
+    <string name="class_session_edit_time_label">Edit date</string>
+    <string name="restart_class_session">Restart</string>
+    <string name="class_session_student_label">Communication and Reports</string>
+    <string name="new_class_session"></string>
+    <string name="student_text">Choose student</string>
+    <string name="class_session_report_text">Send class session report</string>
+    <string name="class_session_report">
+        The class session was held on %2$s. The %3$s, and it involves %4$s
+    </string>
+    <string name="class_session_completed">session was completed</string>
+    <string name="class_session_not_completed">session not completed</string>
+    <string name="class_session_report_no_student">there is no student.</string>
+    <string name="class_session_report_student">the student  %s.</string>
+    <string name="class_session_report_subject">Class Session Report</string>
+    <string name="send_class_session_report">Send class session report via</string>
+    <string name="student_call">Call student</string>
+    <string name="search">Search</string>
+    <string name="back_button_text">Back</string>
+    <string name="Start">Start</string>
+
+</resources>

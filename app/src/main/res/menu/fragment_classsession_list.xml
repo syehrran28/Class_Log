@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/new_class_session"
+        android:icon="@drawable/ic_add"
+        android:title="@string/new_class_session"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/restart_class_session"
+        android:title="@string/restart_class_session"
+        app:showAsAction="ifRoom|withText" />
+
+</menu>
